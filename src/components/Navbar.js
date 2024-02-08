@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='wrapper'>
       <div className='header'>
         <span>This is the navbar space</span>
-        <button>btm</button>
+        <button>Upgrade to pro</button>
       </div>
     </div>
   )

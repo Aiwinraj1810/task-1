@@ -5,3 +5,12 @@
     padding: 1rem 2rem;
     background-color: cyan;
 }
+
+.header button{
+    background-color: greenyellow;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    font-weight: 800;
+    font-size: 95%;
+}

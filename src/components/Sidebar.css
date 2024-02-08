@@ -7,11 +7,11 @@
   }
 
   .sidebar{
-    background-color: rgb(27,27,41);
-    color: white;
-    height:350vh;
+ 
+    height:100%;
+    background-color: white;
+    color: black;
     width: fit-content;
-   
     text-align: center;
    
   }
@@ -33,7 +33,7 @@
   
   .link{
     display: flex;
-    color: greenyellow;
+    color: black;
     padding: 15px 15px;
     gap: 10px;
     transition: all 0.5s;
@@ -42,12 +42,12 @@
   }
   
   .link:hover{
-    background: white;
-    color: black;
+    background: black;
+    color: white;
   }
   .active{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
   }
 
   /*Section-3 end*/

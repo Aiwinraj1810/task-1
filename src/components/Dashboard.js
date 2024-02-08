@@ -7,6 +7,7 @@ import Graphs from './Graphs'
 import ProgressBar from './ProgressBar';
 import LineGraph from './LineGraph'
 import Barchart from './BarChart'
+import SpikeGraph from './SpikeGraph'
 
 
 const Dashboard = () => {
@@ -58,7 +59,7 @@ const Dashboard = () => {
                     dataKey="students"
                     outerRadius={100}
                     innerRadius={90}
-                    fill="aqua"
+                    fill="purple"
                     label={({ name, students }) =>
                         `${name}: ${students}`
                     }
@@ -194,7 +195,7 @@ const Dashboard = () => {
 
                     </div>
                     <div className='sec-content-2-2'>
-                      <button>btm</button>
+                      <button>Analyze</button>
 
                     </div>
 
@@ -243,27 +244,27 @@ const Dashboard = () => {
                   <div className='buttons'>
                     <div>
 
-                    <button>btn</button>
+                    <button>Day</button>
                     </div>
                     <div>
 
-                    <button>btn</button>
+                    <button>Week</button>
                     </div>
                     <div>
 
-                    <button>btn</button>
+                    <button>Month</button>
                     </div>
                    
                   </div>
                     </div>
                     <div className='img-space'>
 
-                    <LineGraph /> 
+                    <SpikeGraph /> 
                     </div>
                   
                 </div>
                 <div className="sec-3-details">
-                    <div><b>Inbound</b></div>
+                    <div style={{color:'green'}}><b>Inbound</b></div>
                     <div className='inbound-details'>
                         <div>
                             <span>entry 1</span>
@@ -286,7 +287,7 @@ const Dashboard = () => {
                             <span>result</span>
                         </div>
                     </div>
-                    <div><b>Outbound</b></div>
+                    <div style={{color:'green'}}><b>Outbound</b></div>
                     <div className='inbound-details'>
                         <div>
                             <span>entry 1</span>
@@ -372,13 +373,7 @@ const Dashboard = () => {
                         <td>2025</td>
                         <td><button>btm</button></td>
                     </tr>
-                    <tr>
-                        <td><UserStatus/></td>
-                        <td>$7600</td>
-                        <td>Mexico</td>
-                        <td>2025</td>
-                        <td><button>btm</button></td>
-                    </tr>
+              
                     </table>
             </div>
         </div>

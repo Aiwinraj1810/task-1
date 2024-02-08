@@ -13,7 +13,8 @@
 
 .dash-main{
     display: flex;
-    padding: 2rem ;
+    padding: 1rem ;
+    width: 100%;
     
 }
 
@@ -146,6 +147,15 @@
 .sec-content-2-2{
     padding: 0 0.7rem;
 }
+.sec-content-2-2 button{
+    background-color: rgb(194, 0, 194);
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    font-weight: 800;
+    font-size: 65%;
+    color: white;
+}
 .sec-2-bar{
     width: 20rem;
     height: 50px;
@@ -203,8 +213,12 @@
 
 
 .sec-3-main .img-space{
-    width: 50rem;
-    height: 80rem;
+width: 100%;
+
+height: 50vh;
+text-align: center;
+padding-top: 1rem;
+
 }
 .sec-3-main img{
     width: 100%;
@@ -214,6 +228,16 @@
 }
 .sec-3-main .buttons div{
     padding: 0rem 0.7rem;
+}
+.sec-3-main .buttons button{
+    background-color: rgb(194, 0, 194);
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    font-size: 65%;
+    color: white;
+
 }
 .sec-3-details{
     display: flex;
