@@ -1,0 +1,14 @@
+.userWrap{
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+}
+.userImg{
+    width: 15px;
+    height: 15px;
+}
+.userImg img{
+    width: 100%;
+}

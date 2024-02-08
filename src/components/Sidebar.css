@@ -1,0 +1,57 @@
+*{
+
+    text-decoration: none;
+  }
+  .container{
+    display: flex; 
+  }
+
+  .sidebar{
+    background-color: rgb(27,27,41);
+    color: white;
+    height:350vh;
+    width: fit-content;
+   
+    text-align: center;
+   
+  }
+  
+  .top-section{
+    display: flex ;
+    padding: 20px 20px;
+    align-items: center;
+  }
+  .logo{
+    font-size: 30px;
+  }
+  .bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .link{
+    display: flex;
+    color: greenyellow;
+    padding: 15px 15px;
+    gap: 10px;
+    transition: all 0.5s;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .link:hover{
+    background: white;
+    color: black;
+  }
+  .active{
+    background-color: white;
+    color: black;
+  }
+
+  /*Section-3 end*/
+
+  /*Section-4*/
+
+
